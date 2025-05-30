@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1e497e; /*plano de fundo*/
+    padding: 13px 30px; /*espaçamento interno*/
+    color: #fff; /*cor da fonte*/
+    text-align: center; /* Alinhando ao texto no centro*/
+}
+
+.nome-loja{
+    font-size: 26px; /*Tamanho da fonte*/
+    font-weight: 700; /*negrito*/
+    display: inline-block; /* posicionamento em */
+    width: 200; /* largura*/
+    text-align: left;  /* Alinhando a esquerda*/
+}
+
+nav{
+    display: inline-block; /* posicionamento em linha*/
+    width: 400px; /* largura*/
+}
+
+body{
+    font-family: Arial, sans-serif; /*Mudando a fonte*/
+}
+
+.menu{list-style: none; /* remove os marcadores*/
+}
+
+.item-menu{
+    display: inline-block; /*Colocar os intens da lista em linha*/
+    margin: 10px 15px; /* Magen menu espaçamento entre os item*/
+ }
+ 
+ .item-menu a{
+     text-decoration: none; /*tirar o sublinhado*/
+     color: #fff; /*cor*/
+ }
+
+ .produto{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 251px;
+    
+}
+ 
+.txt-produto{
+    padding: 15px;
+    
+}
+
+.img-produto img{
+    height: 200px;
+
+
+}
+
+.img-produto{
+    width: 250px;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.vitrine{
+    text-align: center;
+
+}
+.categoria{
+    font-size: 48px;
+    text-align: center;
+    margin: 40px 0 20px;
+    font-weight: 700; /* negrito*/
+}
+
+.nome-prod{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.descriçao{
+    font-size: 14px;
+    /*text-align: justify;*/
+    margin: 10px 0;
+    height: 50px;
+    overflow: hidden;
+    
+}
+
+.preço{
+    color: #1e497e;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+
+
+}
+
+.txt-produto a{
+    width: 100%;
+    background-color: #1e497e;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none; /*remover sublianhado*/
+    font-weight: 600;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    background-color: #1e497e;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    margin-bottom: 75px; /*margem apos o main para descontar o footer(fixed)*/
+
+}
